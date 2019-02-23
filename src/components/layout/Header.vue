@@ -10,7 +10,7 @@
           </b-nav>
         </div>
         <div class="col-md-2">
-          <div class="header-logo"><router-link to="/"><img src="../../assets/images/ssense_logo_v2.svg" /></router-link></div>
+          <div class="header-logo"><router-link to="/"><img src="../../assets/images/touch_logo_v2.svg" /></router-link></div>
         </div>
         <div class="col-md-5">
           <b-nav class="nav-right">
