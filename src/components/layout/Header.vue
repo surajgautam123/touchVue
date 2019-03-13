@@ -5,7 +5,7 @@
         <b-col md="5">
           <b-nav class="nav-left">
             <b-nav-item to="/products">Men</b-nav-item>
-            <b-nav-item>Women</b-nav-item>
+            <b-nav-item to="/women">Women</b-nav-item>
             <b-nav-item>Search</b-nav-item>
           </b-nav>
         </b-col>

@@ -3,40 +3,7 @@
   <div class="page-root">
   <b-row>
     <b-col col md="2">
-      <div class="side-navigation">
-        <nav class="all-categories section">
-          <ul class="nav" id="category-list">
-            <li>
-              <h2>
-                <a href="#" class="text-uppercase bold">All categories</a>
-              </h2>
-            </li>
-            <li>
-              <a href="#">ACCESSORIES</a>
-              <ul class="nav nav--stacked sublevel"><!----></ul>
-            </li>
-            <li>
-              <a href="/en-in/men/bags">BAGS</a>
-              <ul class="nav nav--stacked sublevel"><!----></ul>
-            </li>
-            <li>
-              <a href="/en-in/men/clothing">CLOTHING</a>
-              <ul class="nav nav--stacked sublevel"><!----></ul>
-            </li>
-            <li>
-              <a href="/en-in/men/shoes">SHOES</a>
-              <ul class="nav nav--stacked sublevel"><!----></ul>
-              </li>
-          </ul>
-        </nav>
-        <nav class="all-designers section">
-          <ul id="designer-list" class="nav nav--stacked">
-            <li>
-              <h2><a href="/en-in/men" class="text-uppercase bold">All designers</a></h2>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <women-all-categories-nav></women-all-categories-nav>
     </b-col>
     <b-col col md="8">
       <b-container class="product-list">
@@ -63,10 +30,10 @@
         <a href="#" class="trigger text-uppercase bold">Sort</a>
         <div class="section">
           <ul>
-            <li class="active"><a href="/en-in/men">Latest arrivals</a></li>
-            <li><a href="/en-in/men?sort=popularity-desc">Trending</a></li>
-            <li><a href="/en-in/men?sort=price-asc">Price: Low to high</a></li>
-            <li><a href="/en-in/men?sort=price-desc">Price: High to low</a></li>
+            <li class="active"><a href="#">Latest arrivals</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Price: Low to high</a></li>
+            <li><a href="#">Price: High to low</a></li>
           </ul>
         </div>
       </div>
@@ -80,52 +47,51 @@
 export default {
     data: function(){
         return {
-        title: 'Feed',
         products: [
           {
-            avatar: './static/images/products/men/men-pro1.jpg',
+            avatar: './static/images/products/women/women-pro1.jpg',
             brandName: 'Balenciaga',
             productName: "Black & White Flannel Coat",
             price: '$1550'
           },
           {
-            avatar: './static/images/products/men/men-pro2.jpg',
+            avatar: './static/images/products/women/women-pro2.jpg',
             brandName: 'Summer BBQ',
             productName: "Lorem ipsum dolor sit amet",
             price: '$1550'
           },
           {
-            avatar: './static/images/products/men/men-pro1.jpg',
+            avatar: './static/images/products/women/women-pro3.jpg',
             brandName: 'Oui oui',
             productName: "Consectetur adipisicing elit",
             price: '$1550'
           },
           {
-            avatar: './static/images/products/men/men-pro2.jpg',
+            avatar: './static/images/products/women/women-pro4.jpg',
             brandName: 'Balenciaga',
             productName: "Black & White Flannel Coat",
             price: '$1550'
           },
           {
-            avatar: './static/images/products/men/men-pro1.jpg',
+            avatar: './static/images/products/women/women-pro2.jpg',
             brandName: 'Summer BBQ',
             productName: "Lorem ipsum dolor sit amet",
             price: '$1550'
           },
           {
-            avatar: './static/images/products/men/men-pro2.jpg',
+            avatar: './static/images/products/women/women-pro4.jpg',
             brandName: 'Oui oui',
             productName: "Consectetur adipisicing elit",
             price: '$1550'
           },
           {
-            avatar: './static/images/products/men/men-pro1.jpg',
+            avatar: './static/images/products/women/women-pro1.jpg',
             brandName: 'Summer BBQ',
             productName: "Lorem ipsum dolor sit amet",
             price: '$1550'
           },
           {
-            avatar: './static/images/products/men/men-pro2.jpg',
+            avatar: './static/images/products/women/women-pro3.jpg',
             brandName: 'Oui oui',
             productName: "Consectetur adipisicing elit",
             price: '$1550'
