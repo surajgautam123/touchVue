@@ -8,16 +8,9 @@ import BootstrapVue from 'bootstrap-vue'
 Vue.use(BootstrapVue);
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-//Font Awesome
-
-import './assets/styles/styles.scss'
-import Home from './components/Home.vue'
 import Header from './components/layout/Header.vue'
 import Footer from './components/layout/Footer.vue'
 
-
-Vue.component('app-home', Home)
 Vue.component('app-header', Header)
 Vue.component('app-footer', Footer)
 

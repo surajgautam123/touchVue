@@ -1,0 +1,24 @@
+.container-fluid{
+    padding: 0 55px;
+    .page-root{
+        margin-top:35px;
+    }
+}
+.side-navigation{
+    .section{
+        margin-top:20px;
+        &:first-child{
+            margin-top:0;
+        }
+    }
+    .nav{
+        display: block;
+        li{
+            h2{
+                font-size: 11px;
+                line-height: 15px;
+                margin: 0;
+            }
+        }
+    }
+}
